@@ -1,0 +1,19 @@
+li {
+    display: block;
+    color: red
+}
+header {
+    background-color: grey;
+    color: white;
+    padding: 100px 50px 200px;
+    border: 20px dashed gold;
+    margin: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.li-highlighted {
+    background-color: grey;
+    color: yellow;
+}
