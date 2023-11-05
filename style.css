@@ -1,19 +1,39 @@
 li {
-    display: block;
-    color: red
-}
-header {
-    background-color: grey;
+    display: block; /*Art der Darstellung */
     color: white;
-    padding: 100px 50px 200px;
-    border: 20px dashed gold;
-    margin: 200px;
+}
+
+header {
+    font-family: Arial, sans-serif;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    
+    border: 15px groove rebeccapurple;
+    margin: 100px;
+    padding: 100px;
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;/*Ausrichtung*/
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px; /*Außenabstand eines Elementes zu seinem Rahmen */
+    padding: 0px; /*Innenabstand eines Elementes zu seinem Rahmen */
+    line-height: 1; /*Zeilenabstand*/
+    background-color: grey;
     align-items: center;
 }
 
+header h1 {
+    font-size: 3em;
+}
+section h2 {
+color: rebeccapurple;
+text-decoration: underline dotted white ;
+}
+
 .li-highlighted {
-    background-color: grey;
-    color: yellow;
+    color: rgb(65, 65, 65);
+    text-decoration: underline rebeccapurple;
+    text-decoration-thickness: 2.25px;
 }
