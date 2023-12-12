@@ -5,7 +5,7 @@ li {
 
 header {
     font-family: Arial, sans-serif;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(92, 68, 68);
     color: white;
     
     border: 15px groove rebeccapurple;
@@ -22,6 +22,10 @@ body {
     line-height: 1; /*Zeilenabstand*/
     background-color: grey;
     align-items: center;
+}
+section{
+    margin: 50px;
+    padding: 50px;
 }
 
 header h1 {
